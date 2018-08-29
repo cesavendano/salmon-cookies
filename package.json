@@ -1,0 +1,22 @@
+{
+  "name": "salmon-cookies",
+  "version": "1.0.0",
+  "description": "A website for Pat's Pet Bakery",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "cat",
+    "kitten",
+    "dog",
+    "puppy",
+    "treat",
+    "food",
+    "salmon",
+    "seattle"
+  ],
+  "author": "Cesar Avendano",
+  "license": "ISC"
+}
