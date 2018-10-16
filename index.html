@@ -8,15 +8,25 @@
     <link href="normalize.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Baloo+Tammudu|Play" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
-<head>
+
+    <script id="product-template" type="text/handlebars-v4">
+        <li class="product" data-buckle="{{buckle}}" data-categories="{{categories}}" data-descriptions="{{descriptions}}" data-id="{{product_id}}">
+            <img src="images/{{image}}" alt="{{title}}">
+            <h4>{{title}}</h4>
+            <p>{{price}}</p>
+            <a href="#" class="button">Learn more</a>
+        </li>
+    </script>
+
+</head>
 <body>
     <div id="container">
         <header>
             <div id="logo-search" class="clearfix">
                 <h1>Fuchs</h1>
                 <form id="search">
-                    <input type="text" placeholder="Search">
-                    <input type="button" value="Go">
+                    <input type="search" id="lookup" placeholder="Search">
+                    <input type="submit" value="Go">
                 </form>
             </div>
             <div id="navigation" class="clearfix">
@@ -29,10 +39,45 @@
                     <li>Locations</li>
                 </ul>
             </div>
-            <div id="promotions">
-            
-        <div>
+            <div id="promotions" class="clearfix">
+                <span class="arrow">&lt;</span>
+                <span class="promo">FREE SHIPPING ON U.S. ORDERS OVER $50. USE PROMO "FU50"</span>
+                <span class="arrow">&gt;</span>
+            </div>
         </header>
+        <main class="clearfix">
+            <aside>
+                <h3>Categories</h3>
+                <select id="category-filter">
+                    <option value="">--Filter by category--</option>
+                </select>
+                <h3>Buckle</h3>
+                <select id="buckle-filter">
+                    <option value="">--Filter by buckle--</option>
+                </select>
+                <h3>Description</h3>
+                <select id="description-filter">
+                    <option value="">--Filter by description--</option>
+                </select>
+            </aside>
+            <section>
+                <h3>Top Products</h3>
+                <ul id="product-listings">
+                    
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <p>Copyright &copy; 2018 - Fuchs</p>
+        </footer>
     </div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/handlebars-v4.0.12.js"></script>
+    <script src="js/products.js"></script>
+    <script src="js/products-constructor.js"></script>
+    <script src="js/buckle-filters.js"></script>
+    <script src="js/description-filters.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/category-filters.js"></script>
 </body>
 </html>

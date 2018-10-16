@@ -16,11 +16,13 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'IBM Plex Sans', sans-serif;
     color: rgb(255, 255, 255);
+    font-size: 2em;
 }
 
 h1 {
     float: left;
     padding-left: 18em;
+    padding-top: 1;
 }
 
 #search {
@@ -49,11 +51,101 @@ h1 {
 
 #navigation li {
     float: left;
-    padding: 10px 78.5px;
+    padding: 10px 78.6px;
+    width: 16.66%;
     color: rgb(255, 255, 255);
 }
 
 #navigation li:hover {
     background-color: rgb(70, 100, 124);
     cursor: pointer; 
+}
+
+#promotions {
+    background-color: white;
+}
+
+#promotions span {
+    float: left;
+    text-align: center;
+    padding: 0.5em;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: bold;
+}
+
+#promotions .arrow {
+    width: 5%;
+    background-color: white;
+    font-size: 2em;
+    padding: 0;
+}
+
+.promo {
+    width: 90%;
+}
+
+main {
+    width: 100%;
+    min-height: 350px;
+    background-color: rgb(0, 23, 79);
+}
+
+main > aside {
+float: left;
+width: 15%;
+padding: 0%;
+background-color: rgb(0, 23, 79);
+}
+
+main > section {
+    width: 80%;
+    float: left;
+    padding: 20px;
+    background-color: rgb(70, 100, 124);
+    color: rgb(255, 255, 255);
+}
+aside select {
+    width: 100%;
+}
+
+aside hr {
+    border: none;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+}
+
+#product-listings {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.product {
+    width: 30%;
+    background-color: rgb(0, 23, 79);
+    color: rgb(70, 100, 124);
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.product img {
+    width: 90%;
+    margin: 10px auto;
+    display: block;
+}
+
+.product h4, .product p, .product a{
+    margin: 0;
+    text-align: center;
+    display: block;
+}
+
+footer {
+    background-color: white;
+    text-align: center;
+}
+
+footer p {
+   padding: 10px;
+   margin: 0;
 }
