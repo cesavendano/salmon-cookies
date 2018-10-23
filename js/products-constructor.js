@@ -2,11 +2,11 @@
 
 var product_list = [];
 
-var Product = function(product){
-    this.image = product.image;
+var Product = function(product){ 
+    this.image = product.image; 
     this.title = product.title;
     this.price = product.price;
-    this.description = product.description;
+    this.descriptions = product.descriptions;
     this.buckle = product.buckle;
     this.categories = product.categories;
     this.product_id = product.product_id;

@@ -1,131 +1,147 @@
-var products = [
+var products = [ 
 
     {
-        image: "black-cup.jpg",
+        image: "black-cup.jpg", 
         title: "Red Cup",
         price: 10,
-        description: "Made in Vietnam",
+        descriptions: "Made in Vietnam",
         buckle: "Strapback",
-        category: "Party"
+        categories: ["Party", "Trucker"],
+        product_id: "cup65849+"
     },
-    {
+   {
         image: "black-diamond.jpg",
         title: "Diamond",
         price: 10,
-        descrption: "Made in Mexico",
+        descriptions: "Made in Mexico",
         buckle: "Strapback",
-        category: "Party"   
+        categories: ["Party", "Light"],
+        product_id: "diamon8976"
     },
     {
         image: "blue-water.jpg",
         title: "Watermelon",
         price: 10,
-        description: "Made in Germany",
+        descriptions: "Made in Germany",
         buckle: "Clip",
-        category: "Food"
+        categories: ["Food"],
+        product_id: "watermelon8763"
     },
     {
         image: "light-blue.jpg",
         title: "Blue-Taco",
         price: 10,
-        description: "Made in China",
+        descriptions: "Made in China",
         buckle: "Clip",
-        category: "Food"
+        categories: ["Food", "Trucker"],
+        product_id: "taco3878"
     },
     {
         image: "lightblue-peach.jpg",
         title: "Peachy",
         price: 10,
-        description: "Made in Vietnam",
+        descriptions: "Made in Vietnam",
         buckle: "Strapback",
-        category: "Food"
+        categories: ["Food"],
+        product_id: "peach79873"
     },
     {
         image: "pink-alvocado.jpg",
         title: "Pink-Alvocado",
         price: 10,
-        description: "Made in China",
+        descriptions: "Made in China",
         buckle: "Clip",
-        category: "Food"
+        categories: ["Food", "Breathable"],
+        product_id: "alvocado99334"
     },
     {
         image: "nasa.jpg",
         title: "Nasa",
         price: 10,
-        description: "Made in Vietnam",
+        descriptions: "Made in Vietnam",
         buckle: "Clip",
-        category: "Party"
+        categories: ["Party"],
+        product_id: "nasa9823"
     },
     {
         image: "red-damn.jpg",
         title: "DAMN",
         price: 10,
-        description: "Made in U.S.A.",
+        descriptions: "Made in U.S.A.",
         buckle: "Strapback",
-        category: "Party"
+        categories: ["Party", "Breathable"],
+        product_id: "damn109"
     },
     {
         image: "red-maga.jpg",
         title: "MAGA",
         price: 10,
-        description: "Made in U.S.A.",
+        descriptions: "Made in U.S.A.",
         buckle: "Clip",
-        category: "Party"
+        categories: ["Party"],
+        product_id: "maga683"
     },
     {
         image: "tan-cactus.jpg",
         title: "Cactus",
         price: 10,
-        description: "Made in Mexico",
+        descriptions: "Made in Mexico",
         buckle: "Clip",
-        category: "Party"
+        categories: ["Party"],
+        product_id: "cactus0039"
     },
     {
         image: "tan-flower.jpg",
         title: "De La Rosa",
         price: 10,
-        description: "Made in Mexico",
+        descriptions: "Made in Mexico",
         buckle: "Strapback",
-        category: "Party"
+        categories: ["Party", "Trucker"],
+        product_id: "flower6676"
     },
     {
         image: "white taco.jpg",
         title: "Pink-Taco",
         price: 10,
-        description: "Made in Mexico",
+        descriptions: "Made in Mexico",
         buckle: "Clip",
-        category: "Food"
+        categories: ["Food"],
+        product_id: "taco9000"
     },
     {
         image: "white-adidas.jpg",
         title: "White-Addidas",
         price: 10,
-        description: "Made in Germany",
+        descriptions: "Made in Germany",
         buckle: "Strapback",
-        category: "Party"
+        categories: ["Party", "Athletic"],
+        product_id: "adidas666"
     },
     {
         image: "white-flower.jpg",
         title: "Blanca Rosa",
         price: 10,
-        description: "Made in Vietnam",
+        descriptions: "Made in Vietnam",
         buckle: "Clip",
-        category: "Party"
+        categories: ["Party"],
+        product_id: "flower579"
     },
     {
         image: "white-lean.jpg",
         title: "Lean",
         price: 10,
-        description: "Made in China",
+        descriptions: "Made in China",
         buckle: "Strapback",
-        category: "Party"
+        categories: ["Party"],
+        product_id: "lean8834"
     },
     {
         image: "white-pinnaple.jpg",
-        title: "Pinnaple",
+        title: "Pineapple",
         price: 10,
-        description: "Made in China",
+        descriptions: "Made in China",
         buckle: "Clip",
-        category: "Food"
+        categories: ["Food"],
+        product_id: "pineapple980"
     }
 ];
